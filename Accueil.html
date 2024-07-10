@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agence de Voyages</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navigbar -->
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+      
+         <!-- Bar Menu -->
+        <div class="container-fluid">
+            <!-- logo image -->
+        <div class="logo d-flex">
+            <a href="#"><img src="assets/logo.jpg" alt="logo"></a>
+            <a class="navbar-brand me-auto" href="#">Agence</a>
+        </div>
+        <!-- fin logo -->
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">SDSaliou</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link mx-lg-2" aria-current="page" href="#Destination">Destinations</a>
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" aria-current="page" href="#Tour">Tours</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-2" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </nav>
+    <!-- Fin navbar -->
+    <!-- Section Héros -->
+    <section class="hero">
+        <div >
+            <h1>Explorez le Monde</h1>
+            <h2>En toute Sécurité à </h2>
+            <h2> SDSaliou Travel Agence </h2>
+            <a href="#contact" ><button class="bouton">LET'S GO</button></a>
+        </div>
+    </section>
+
+    <!-- Section Destinations -->
+    <section class="container mt-5" id="Destination">
+        <h2 class="text-center mb-4" >Destinations Fréquentes</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/destinatin1.jpg" class="card-img-top" alt="Destination 1" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Paris</h5>
+                        <p class="card-text"><strong>Découvrez la beauté et l'élégance de la ville lumière.</strong>
+                            Paris, la Ville Lumière, brille de mille feux dès que le soleil se couche,
+                             offrant un spectacle époustouflant à ses habitants et ses visiteurs. 
+                             La capitale française est réputée pour sa vie nocturne animée et diversifiée,
+                             allant des promenades romantiques le long de la Seine aux soirées effrénées .
+                        </p>
+                        <a href="https://www.pariscityrama.fr/les-meilleures-activites-nocturnes-a-paris/" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/destinatin2.jpg" class="card-img-top" alt="Destination 2"height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">Canada</h5>
+                        <p class="card-text"><strong> Canada est une destination qui fait rêver tous les voyageurs..</strong>
+                            Le Canada est une destination de voyage incroyable,
+                             avec ses nombreuses villes magnifiques et ses paysages à couper le souffle.
+                              Que vous soyez à la recherche d’une escapade urbaine ou d’une expérience plus tranquille en pleine nature,
+                             le Canada a tout à offrir.Une meilleure à visiter.
+                        </p>
+                        <a href="https://www.cherifaistesvalises.com/les-10-plus-belles-villes-du-canada-en-2022/" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="assets/destinatin3.jpg" class="card-img-top" alt="Destination 3" height="200">
+                    <div class="card-body">
+                        <h5 class="card-title">New York</h5>
+                        <p class="card-text"><strong> l'effervescence de la ville qui ne dort jamais.</strong>
+                            Si vous pensez qu'il y a déjà beaucoup de choses à faire en journée à New-York,
+                             attendez de voir ce qu'il est possible d'y faire la nuit.
+                            La vie nocturne New-Yorkaise est extrêmement riche et variée.                            
+                            Pas besoin d'être un gros fêtard non plus pour profiter de la nuit à New-York, il existe des sorties à faire en couple
+                             ou en famille, par exemple une croisière sur l'Hudson.</p>
+                        <a href="https://www.sortir-a-new-york.fr/blog/vie-nocturne-que-faire-le-soir" class="btn btn-primary">En savoir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Visites -->
+    <section class="container mt-5" id="Tour">
+        <h2 class="text-center mb-4">Nos Visites</h2>
+        <div class="accordion" id="accordionPanelsStayOpenExample" width="50">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                    Safari en Afrique
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  <strong>Partez en safari et découvrez la faune et les paysages d'Afrique.</strong> Nous Avons différents propositions: <br>6 Days Sine Saloum CFA 1.250.000,7 Days Kenya & Tanzania Combined Safari (Popular)
+                    CFA 1.332.133, 10 Days Kenya & Tanzania Safari (Budget Group Sharing) CFA 1.089.927, 12 Days Kenya & Tanzania Combined Safari (Budget Group Sharing) 
+                    CFA 1.150.479... .
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                    Aventure en Asie
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>Une aventure inoubliable à travers les paysages et cultures d'Asie.</strong> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Assumenda, et quis alias veniam deserunt eaque sint aperiam ducimus nemo saepe tempore autem dignissimos,
+                   rem eum incidunt minima harum amet voluptatem. CFA 1.800.255
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                    AMSTERDAM
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <strong>Amsterdam est une ville qui doit être aussi bien parcourue </strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions CFA 2.158.56
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Formulaire de contact -->
+    <section class="container mt-5" id="contact">
+        <h2 class="text-center mb-4">Contactez-nous</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="name">Nom</label>
+                    <input type="text" class="form-control" id="name" placeholder="Votre nom">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Votre email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="destination">Destination d'intérêt</label>
+                <input type="text" class="form-control" id="destination" placeholder="Destination">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" placeholder="Votre message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+        </form>
+    </section>
+
+    <!-- Pied de page -->
+    <footer >
+        <div class="bas">
+            <p>Contactez-nous : email@example.com</p>
+        <a href="https://snapchat.com/t/BTL5qtHt"  class="fond" alt="Suivez-nous sur snapchat" ><i class="fa-brands fa-square-snapchat"></i> snapchat</a>
+        <a href="https://www.instagram.com/mame_diarra_ngane?igsh=MWsweTR4czdhZno5ZA%3D%3D&utm_source=qr"  class="fond" alt="Suivez-nous sur instagram"><i class="fa-brands fa-instagram"></i> instagram</a>
+        <a href="https://x.com/diarra_ngane?s=21" class="fond" alt="Suivez-nous sur X" ><i class="fa-brands fa-twitter"></i> X</a>
+        <p>&copy; 2024 SDSALIOU.</p>
+        </div>
+    </footer>
+    <!-- Pour les icons -->
+    <script src="https://kit.fontawesome.com/ffbfc5fdd6.js" crossorigin="anonymous"></script>
+<!--fin partie footer-->
+    
+</body>
+</html>
